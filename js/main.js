@@ -17,7 +17,7 @@ $(document).ready(function () {
                 dots: true,
             },
             600: {
-                items: 3,
+                items: 2,
                 nav: false,
                 dots: true,
             },
@@ -28,11 +28,11 @@ $(document).ready(function () {
             }
         }
     });
-    owl.on('drag.owl.carousel', function (event) {
-        document.ontouchmove = function (e) {
-            e.preventDefault()
-        }
-    })
+    // owl.on('drag.owl.carousel', function (event) {
+    //     document.ontouchmove = function (e) {
+    //         e.preventDefault()
+    //     }
+    // })
 
 
 
