@@ -16,7 +16,7 @@ $(document).ready(function () {
                 nav: false,
                 dots: true,
             },
-            600: {
+            800: {
                 items: 2,
                 nav: false,
                 dots: true,
