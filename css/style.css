@@ -390,6 +390,9 @@ input::-webkit-inner-spin-button {
 
 
 @media(max-width: 992px) {
+    .b_mini_blogs span{
+        margin-left: 120px;
+    }
     #navbarSupportedContent,
     #navbarSupportedContent2 {
         background: #fff !important;
