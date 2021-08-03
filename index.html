@@ -25,7 +25,7 @@
 </head>
 
 <body style='overflow-x:hidden;'>
-
+    
     <div id="navbar">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark menuBG py-0">
             <div class="container">
@@ -120,7 +120,7 @@
             <div class="header__items wow animate__animated animate__bounceInRight">
                 <div class="header__mini-title mb-2">
                     <i class="fas fa-play me-2 text-white"></i>
-                    <h6 class="d-inline-block">WHATCH VIDEO</h6>
+                    <a href="https://youtu.be/pH43mK1Jfl4" class="d-inline-block">WHATCH VIDEO</a>
                 </div>
 
                 <div class="header__title text-white mb-3">
@@ -514,8 +514,10 @@
                                     <p>A small river named Duden flows by their place and supplies it with the necessary
                                         regelialia.</p>
                                 </div>
-                                <button type="button" class="btn btn-outline-warning">Read More &rarr;</button>
-                                <span>Admin</span> <i class="fas fa-comment-dots"> 3</i>
+                                <div class="cards_btn-span d-flex justify-content-between">
+                                    <button type="button" class="btn btn-outline-warning">Read More &rarr;</button>
+                                    <span>Admin <i class="fas fa-comment-dots"> 3</i></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -638,11 +640,11 @@
                         width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 <div class="col-lg-6 col-sm-12">
-                    <form class="input_form">
-                        <input class='form-control mb-3 w-75 py-3 mt-5' type="text" placeholder="Your Name">
-                        <input class='form-control mb-3 w-75 py-3' type="email" placeholder="Your Email">
-                        <input class='form-control mb-3 w-75 py-3' type="text" placeholder="Subject">
-                        <textarea class='form-control mb-3 w-75 py-3' cols="30" rows="5"
+                    <form class="input_form ">
+                        <input class='form-control mb-3 w-75 py-3 mt-5 input_css_item' type="text" placeholder="Your Name">
+                        <input class='form-control mb-3 w-75 py-3 input_css_item' type="email" placeholder="Your Email">
+                        <input class='form-control mb-3 w-75 py-3 input_css_item' type="text" placeholder="Subject">
+                        <textarea class='form-control mb-3 w-75 py-3 input_css_item' cols="30" rows="5"
                             placeholder="Message"></textarea>
 
                         <button type="submit" class="btn btn-warning text-white px-5 fw-bold request__btn mt-1">Send
