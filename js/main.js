@@ -39,6 +39,7 @@ $(document).ready(function () {
     $('.menu-btn').click(function (e) {
         e.preventDefault();
         $(this).toggleClass('menu-btn-active');
+        window.navigator.vibrate(2000);
     })
 
 
